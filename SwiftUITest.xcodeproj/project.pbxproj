@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		FB02B35722ABA16B00F1A636 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B35622ABA16B00F1A636 /* AppDelegate.swift */; };
 		FB02B35922ABA16B00F1A636 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B35822ABA16B00F1A636 /* SceneDelegate.swift */; };
-		FB02B35B22ABA16B00F1A636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B35A22ABA16B00F1A636 /* ContentView.swift */; };
 		FB02B35D22ABA16C00F1A636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB02B35C22ABA16C00F1A636 /* Assets.xcassets */; };
 		FB02B36022ABA16C00F1A636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB02B35F22ABA16C00F1A636 /* Preview Assets.xcassets */; };
 		FB02B36322ABA16C00F1A636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB02B36122ABA16C00F1A636 /* LaunchScreen.storyboard */; };
 		FB02B36E22ABA16C00F1A636 /* SwiftUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B36D22ABA16C00F1A636 /* SwiftUITestTests.swift */; };
 		FB02B37922ABA16C00F1A636 /* SwiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B37822ABA16C00F1A636 /* SwiftUITestUITests.swift */; };
+		FB02B38722ABA3DD00F1A636 /* TitleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38622ABA3DD00F1A636 /* TitleListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		FB02B35322ABA16A00F1A636 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB02B35622ABA16B00F1A636 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB02B35822ABA16B00F1A636 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB02B35A22ABA16B00F1A636 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB02B35C22ABA16C00F1A636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB02B35F22ABA16C00F1A636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB02B36222ABA16C00F1A636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		FB02B37422ABA16C00F1A636 /* SwiftUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB02B37822ABA16C00F1A636 /* SwiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestUITests.swift; sourceTree = "<group>"; };
 		FB02B37A22ABA16C00F1A636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB02B38622ABA3DD00F1A636 /* TitleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				FB02B35622ABA16B00F1A636 /* AppDelegate.swift */,
 				FB02B35822ABA16B00F1A636 /* SceneDelegate.swift */,
-				FB02B35A22ABA16B00F1A636 /* ContentView.swift */,
+				FB02B38622ABA3DD00F1A636 /* TitleListView.swift */,
 				FB02B35C22ABA16C00F1A636 /* Assets.xcassets */,
 				FB02B36122ABA16C00F1A636 /* LaunchScreen.storyboard */,
 				FB02B36422ABA16C00F1A636 /* Info.plist */,
@@ -269,7 +269,7 @@
 			files = (
 				FB02B35722ABA16B00F1A636 /* AppDelegate.swift in Sources */,
 				FB02B35922ABA16B00F1A636 /* SceneDelegate.swift in Sources */,
-				FB02B35B22ABA16B00F1A636 /* ContentView.swift in Sources */,
+				FB02B38722ABA3DD00F1A636 /* TitleListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
