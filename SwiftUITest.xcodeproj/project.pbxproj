@@ -17,6 +17,7 @@
 		FB02B38722ABA3DD00F1A636 /* TitleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38622ABA3DD00F1A636 /* TitleListView.swift */; };
 		FB02B38922ABA44F00F1A636 /* TitleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38822ABA44F00F1A636 /* TitleData.swift */; };
 		FB02B38B22ABA47800F1A636 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38A22ABA47800F1A636 /* TitleRow.swift */; };
+		FB02B38D22ABA4A800F1A636 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38C22ABA4A800F1A636 /* TitleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FB02B38622ABA3DD00F1A636 /* TitleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleListView.swift; sourceTree = "<group>"; };
 		FB02B38822ABA44F00F1A636 /* TitleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleData.swift; sourceTree = "<group>"; };
 		FB02B38A22ABA47800F1A636 /* TitleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		FB02B38C22ABA4A800F1A636 /* TitleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FB02B35622ABA16B00F1A636 /* AppDelegate.swift */,
 				FB02B35822ABA16B00F1A636 /* SceneDelegate.swift */,
 				FB02B38622ABA3DD00F1A636 /* TitleListView.swift */,
+				FB02B38C22ABA4A800F1A636 /* TitleDetailView.swift */,
 				FB02B38A22ABA47800F1A636 /* TitleRow.swift */,
 				FB02B38822ABA44F00F1A636 /* TitleData.swift */,
 				FB02B35C22ABA16C00F1A636 /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB02B38D22ABA4A800F1A636 /* TitleDetailView.swift in Sources */,
 				FB02B35722ABA16B00F1A636 /* AppDelegate.swift in Sources */,
 				FB02B35922ABA16B00F1A636 /* SceneDelegate.swift in Sources */,
 				FB02B38922ABA44F00F1A636 /* TitleData.swift in Sources */,
