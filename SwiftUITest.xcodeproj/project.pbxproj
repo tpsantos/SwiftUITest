@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		FB02B38922ABA44F00F1A636 /* TitleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38822ABA44F00F1A636 /* TitleData.swift */; };
 		FB02B38B22ABA47800F1A636 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38A22ABA47800F1A636 /* TitleRow.swift */; };
 		FB02B38D22ABA4A800F1A636 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02B38C22ABA4A800F1A636 /* TitleDetailView.swift */; };
+		FB02B39022ABA5F800F1A636 /* Teste in Frameworks */ = {isa = PBXBuildFile; productRef = FB02B38F22ABA5F800F1A636 /* Teste */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB02B39022ABA5F800F1A636 /* Teste in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +163,9 @@
 			dependencies = (
 			);
 			name = SwiftUITest;
+			packageProductDependencies = (
+				FB02B38F22ABA5F800F1A636 /* Teste */,
+			);
 			productName = SwiftUITest;
 			productReference = FB02B35322ABA16A00F1A636 /* SwiftUITest.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +238,9 @@
 				Base,
 			);
 			mainGroup = FB02B34A22ABA16A00F1A636;
+			packageReferences = (
+				FB02B38E22ABA5F800F1A636 /* XCRemoteSwiftPackageReference "SwiftPackageTest" */,
+			);
 			productRefGroup = FB02B35422ABA16A00F1A636 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB02B38E22ABA5F800F1A636 /* XCRemoteSwiftPackageReference "SwiftPackageTest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tpsantos/SwiftPackageTest.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB02B38F22ABA5F800F1A636 /* Teste */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB02B38E22ABA5F800F1A636 /* XCRemoteSwiftPackageReference "SwiftPackageTest" */;
+			productName = Teste;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB02B34B22ABA16A00F1A636 /* Project object */;
 }
