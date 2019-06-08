@@ -17,7 +17,7 @@ struct TitleListView : View {
                 NavigationButton(destination: TitleDetailView(title: self.titles[row])) {
                     TitleRow(title: self.titles[row])
                 }
-            }.navigationBarTitle(Text("Globoplay"), displayMode: .large)
+            }.navigationBarTitle(Text("SwiftUITest"), displayMode: .large)
         }
     }
 }
